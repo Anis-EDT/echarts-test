@@ -32,8 +32,8 @@ export class BasicAreaEchartsComponent implements OnInit, OnDestroy {
     console.log("hehi, ",$event.batch[0].end - $event.batch[0].start)
    if( ($event.batch[0].end - $event.batch[0].start) > 20) {
      console.log("madeit")
-    this._chartOption.color = 'blue';
-    this._chartOption.update();
+    /*this._chartOption.color = 'blue';
+    this._chartOption.update();*/
     console.log("hehi, ",$event.batch[0].end - $event.batch[0].start)
    }
 
@@ -163,9 +163,11 @@ export class BasicAreaEchartsComponent implements OnInit, OnDestroy {
         [4070908800000, 99],
       ],
         type: 'line',
+        itemStyle: {
+          color: '#0770FF'
+        },
         areaStyle: {},
       }],
-      color: 'red',
       dataZoom: [
         {
           type: 'slider',

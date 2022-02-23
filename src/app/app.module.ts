@@ -11,17 +11,14 @@ import { EchartService } from './common/service/echart.service';
 import { SharedModule } from './common/module/shared.module';
 import { LineComponent } from './echarts/line/line.component';
 import { BasicAreaEchartsComponent } from './echarts/line/basic-area-echarts/basic-area-echarts.component';
-import { SmoothedLineEchartsComponent } from './echarts/line/smoothed-line-echarts/smoothed-line-echarts.component';
-import { StackedAreaChartComponent } from './echarts/line/stacked-area-chart/stacked-area-chart.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     LineComponent,
     BasicLineEchartsComponent,
-    BasicAreaEchartsComponent,
-    SmoothedLineEchartsComponent,
-    StackedAreaChartComponent
+    BasicAreaEchartsComponent
   ],
   imports: [
     FormsModule,

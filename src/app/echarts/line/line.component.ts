@@ -13,20 +13,12 @@ export class LineComponent {
       code: 'SELECT'
     },
     {
-      name: 'Basic Line Echart',
+      name: 'Basic Bar Echart',
       code: 'BASIC_LINE_ECHART'
     },
     {
       name: 'Basic Area Echart',
       code: 'BASIC_AREA_ECHART'
-    },
-    {
-      name: 'Smoothed Line Echart',
-      code: 'SMOOTHED_LINE_ECHART'
-    },
-    {
-      name: 'Stacked area Echart',
-      code: 'STACKED_AREA_ECHART'
     }
   ];
 }
